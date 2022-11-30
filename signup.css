@@ -5,10 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
+    background-color: -webkit-linear-gradient(to left,#a0d2eb,#a28089);
+    background: linear-gradient(to left,#494d5f , #a0d2eb);
     height: 100vh;
-    width: 100%;
-    background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg
-    );
+    width: 100%;;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -22,7 +22,8 @@ body {
     width: 100%;
     max-width: 470px;
     padding:  30px 20px;
-    background-color: #c4b3b679;
+    background-color: -webkit-linear-gradient (to left,#494d5f7a , #a28089);
+    background: linear-gradient(to left,#494d5f7c,#a2808988);
     border: 2px splid #ffca41;
     border-radius: 16px;
 }
