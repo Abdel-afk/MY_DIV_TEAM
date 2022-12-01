@@ -10,6 +10,17 @@ body {
     background: linear-gradient(to left,#494d5f , #a0d2eb);
 }
 
+.logo {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    mix-blend-mode:overlay;
+}
+
+.logo {
+    right: 50px;
+}
+
 .about-somos {
     width: 100%;
     padding: 78px 0px;
