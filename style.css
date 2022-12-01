@@ -35,8 +35,7 @@ body {
     background-color: -webkit-linear-gradient(to left,#a0d2eb,#a28089);
     background: linear-gradient(to left,#494d5f , #a0d2eb);
     display: flex;
-    justify-content: space-between;
- }
+    justify-content: space-evenly ;}
 
  .logo {
     display: flex;
@@ -147,8 +146,8 @@ footer
 
 .card-img img {
     position:left;
-    width: 300px;
-    height: 350px;
+    width: 200px;
+    height: 220px;
     align-self: right ;
     border-radius: 10px 10px 0px 0px;
     border-radius: 50%;
