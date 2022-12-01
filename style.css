@@ -64,6 +64,13 @@ body {
     border-radius: 5px
  }
 
+
+ .nav-btn:hover {
+    background: transparent;
+    border: 2px solid #e5eaf5;
+    cursor: pointer;
+ }
+
 .logo {
     right: 50px;
 }
@@ -102,12 +109,19 @@ main p {
 .cta {
     padding: 15px 39px;
     background: #d0bdf4;
+    text-decoration: none;
     color: #fff;
     outline: none;
-    border: none;
-    font-weight: 700;
+    border: n2px solid transparent;
+    font-weight: bold;
     text-transform: uppercase;
     border-radius: 50px;
+}
+
+.cta:hover {
+    background: transparent;
+    border: 2px solid #d0bdf4;
+    cursor: pointer;
 }
 
 footer 
