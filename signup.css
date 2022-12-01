@@ -18,6 +18,19 @@ body {
 
 }
 
+.logo {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    mix-blend-mode:overlay;
+
+
+}
+
+.logo {
+    right: 50px;
+}
+
 .container {
     width: 100%;
     max-width: 470px;
