@@ -1,0 +1,137 @@
+/*
+a {
+    display: block;
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: weight 700px;
+    border-radius: 10px;
+    margin: 150px 130px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(168, 107, 26);
+    margin-top: 50px;
+    margin-left: 50px;
+
+a:hover{
+    background-color: transparent;
+    border: 2px solid rgb(168, 107, 26);;
+    color: rgb(168, 107, 26);;
+
+}
+*/
+/* global reset */
+a {
+    text-decoration: none;
+    color: black;
+}
+/* navgation bar */
+body {
+    background-color: -webkit-linear-gradient(to left,#a0d2eb,#a28089);
+    background: linear-gradient(to left,#494d5f , #a0d2eb);
+}
+
+ header {
+    background-color: -webkit-linear-gradient(to left,#a0d2eb,#a28089);
+    background: linear-gradient(to left,#494d5f , #a0d2eb);
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .logo {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    mix-blend-mode:overlay;
+
+
+}
+
+ nav ul{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+ }
+
+ .nav-btn {
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8458b34d;
+    background-blend-mode:lighten;
+    color: #e5eaf5;
+    padding: 10px 70px;
+    border: solid 1px #8458B3;
+    border-radius: 5px
+ }
+
+
+ .nav-btn:hover {
+    background: transparent;
+    border: 2px solid #e5eaf5;
+    cursor: pointer;
+ }
+
+.logo {
+    right: 50px;
+}
+
+main {
+    display: flex;
+    border: 1px #e5eaf5;
+    height: calc(100vh - 50px);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-imag{
+    max-width: 670px;
+    height: auto;
+    mix-blend-mode: overlay;
+}
+
+.content-right{
+    width: 30%;
+}
+
+main h2 {
+    font-size: 25px;
+    color:#8458B3;
+    text-transform: uppercase;
+}
+
+main p {
+    font-size: 15px;
+    color:  #a28089;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.cta {
+    padding: 15px 39px;
+    background: #d0bdf4;
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+    border: n2px solid transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.cta:hover {
+    background: transparent;
+    border: 2px solid #d0bdf4;
+    cursor: pointer;
+}
+
+footer 
+{
+    font-family: 'Open Sans', sans-serif;
+    background-color: -webkit-linear-gradient(to left,#a0d2eb,#a28089);
+    background: linear-gradient(to left,#494d5f , #a0d2eb);
+}
+
+
+    
+
