@@ -131,6 +131,17 @@ footer
     background-color: -webkit-linear-gradient(to left,#a0d2eb,#a28089);
     background: linear-gradient(to left,#494d5f , #a0d2eb);
 }
+.content-left {
+    animation: rotation 6s forwards;
+  }
+  @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }}
+ 
 
 
     

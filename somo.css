@@ -4,11 +4,42 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
+header {
+    background-color: -webkit-linear-gradient(to left,#a0d2eb,#a28089);
+    background: linear-gradient(to left,#494d5f , #a0d2eb);
+    display: flex;
+    justify-content: space-evenly ;
+}
 
 body {
     background-color: -webkit-linear-gradient(to left,#a0d2eb,#a28089);
     background: linear-gradient(to left,#494d5f , #a0d2eb);
 }
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+ }
+
+.nav-btn {
+   
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8458b34d;
+    background-blend-mode:lighten;
+    color: #e5eaf5;
+    padding: 10px 70px;
+    border: solid 1px #8458B3;
+    border-radius: 5px
+ }
+
+
+.nav-btn:hover {
+    background: transparent;
+    border: 2px solid #e5eaf5;
+    cursor: pointer;
+ }
 
 .logo {
     display: flex;
