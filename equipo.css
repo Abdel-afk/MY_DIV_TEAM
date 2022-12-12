@@ -43,7 +43,6 @@ body {
     width: 400px;
     mix-blend-mode:overlay;
 
-
 }
 
  nav ul{
@@ -64,7 +63,6 @@ body {
     border-radius: 5px
  }
 
-
  .nav-btn:hover {
     background: transparent;
     border: 2px solid #e5eaf5;
@@ -82,7 +80,6 @@ main {
     align-items: center;
     justify-content: center;
 }
-
 
 .hero-imag{
     max-width: 670px;
@@ -135,8 +132,6 @@ footer
 .container {
     display: flex;
     justify-content: space-between;
-
-    
 }
 
 .cadrs {
