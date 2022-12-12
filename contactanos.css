@@ -101,7 +101,7 @@ main h2 {
 
 main p {
     font-size: 15px;
-    color:  #a28089;
+    color:  #ffffff;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -141,6 +141,7 @@ footer
   to {
     transform: rotate(360deg);
   }}
+  
  
 
 
